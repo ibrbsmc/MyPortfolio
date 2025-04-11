@@ -1,0 +1,12 @@
+.blog-item-icon{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+    padding: 5px 10px;
+    color: silver;
+}
+body.light-mode .blog-item-icon{
+        color: gray;
+}

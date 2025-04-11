@@ -1,0 +1,124 @@
+@import url('https://fonts.cdnfonts.com/css/le-havre');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.lp-info{
+    background: transparent;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.info-title {
+	text-transform: uppercase;
+    font-size: 9px;
+    margin: 0px;
+    padding: 5px;
+}
+.info-title span{
+  color: silver;
+  text-shadow: 0px 2px 5px gray;
+  font-size: 3.6em;
+}
+.info-st{
+    font-size: 10.8px;
+    color: silver;
+    position: relative;
+    bottom: 8px;
+    font-family: 'Le Havre', sans-serif;
+    padding: 5px;
+    font-style: italic;
+}
+.lp-desc{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.05em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+body.light-mode .lp-desc{
+    color: #030303;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+body.dark-mode .lin-icon {
+  color: white !important;
+}
+body.dark-mode .git-icon {
+  color: white !important;
+}
+body.dark-mode .mail-icon {
+  color: white !important;
+}
+body.dark-mode .lin-icon:hover {
+  color: teal !important;
+  transition: .6s color ease;
+}
+body.dark-mode .git-icon:hover {
+  color: teal !important;
+  transition: .6s color ease;}
+body.dark-mode .mail-icon:hover {
+  color: teal !important;
+  transition: .6s color ease;
+}
+body.light-mode .lin-icon:hover {
+  color: silver !important;
+  transition: .6s color ease;
+}
+body.light-mode .git-icon:hover {
+  color: silver !important;
+  transition: .6s color ease;}
+body.light-mode .mail-icon:hover {
+  color: silver !important;
+  transition: .6s color ease;
+}
+body.light-mode .lin-icon, .git-icon, .mail-icon {
+  color: teal !important;
+}
+.down-cv {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* İkon ile yazı arasındaki mesafe */
+  padding: 6px 12px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: .8em;
+  font-weight: 500;
+  color: white;
+  transition: 0.3s ease-in-out;
+  margin: 5px;
+}
+
+.down-cv:hover {
+  transition: .5s background-color ease !important;
+  background-color: rgb(43, 43, 43);
+}
+body.light-mode .down-cv{
+  color: black;
+  border: 1px solid black;
+}
+body.light-mode .down-cv:hover{
+  background-color: rgb(216, 216, 216);
+}
+
+.lp-info-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  gap: 14px;
+}
+.icons svg{
+  font-size: 28px !important;
+}
+.down-cv{
+            font-family: "Roboto", sans-serif !important;
+            font-size: .75em !important;
+}

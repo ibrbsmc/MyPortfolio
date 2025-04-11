@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.project-item{
+    height: auto;
+    width: 327px !important;
+    border-radius: 15px;
+    border: 1px solid rgb(39, 39, 39);
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 10px rgb(37, 37, 37);
+}
+body.light-mode .project-item{
+    border: 1px solid rgb(155, 155, 155);
+}
+.project-item:hover{
+    border-radius: 15px;
+    border: 1px solid white;
+    transition: .8s;
+}
+body.light-mode .project-item:hover{
+    border: 1px solid black;
+}
+.project-item img{
+    border-radius: 15px;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom: 1px solid rgb(39, 39, 39);
+    height: 187px;
+}
+
+
+.project-item-title{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: silver;
+}
+.project-item-desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .85em;
+}
+.project-item .card-link {
+    display: inline-block; /* veya flex */
+}
+
+.pr-item-icon {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+    padding: 5px 10px;
+    color: silver;
+
+}
+.pr-item-icon:hover{
+    background-color: rgb(43, 43, 43);
+    transition: .6s background-color ease;
+    border-radius: 6px;
+}
+body.light-mode .pr-item-icon:hover{
+    background-color: silver;
+    transition: .6s background-color ease;
+    border-radius: 6px;
+}
+.project-item .card-link {
+    text-decoration: none;
+    color: white;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+body.light-mode .project-item-title{
+    color: gray;
+}
+body.light-mode .project-item-desc{
+    color: black;
+    font-weight: 500;
+}
+body.light-mode .pr-item-icon{
+    color: gray;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.projects-main-card{
+    width: 100%;
+    background: transparent;
+}
+.projects-title{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 44px;
+    color: silver;
+    margin-top: 30px;
+    margin-bottom: 29px;
+    width: 100%;
+    text-align: center;
+}
+body.light-mode .projects-title{
+    color: black;
+}
+.map-projects-div{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 7.5%;
+
+}
+.title-underline {
+    width: 30%;
+    height: 1px;
+    background-color: gray;
+    transform: scaleY(0.4); /* daha ince gösterir */
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+body.light-mode .title-underline {
+    background-color: black;
+}

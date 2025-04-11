@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.lp-projects{
+    height: auto;
+    width: 100%;
+    background: transparent;
+    margin-bottom: 40px;
+}
+.lpp-main-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.lp-projects-div{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-bottom: 22px;
+}
+.project-item-desc{
+      font-family: "Roboto", sans-serif !important;
+}
+.pr-item-icon{
+          font-family: "Roboto", sans-serif !important;
+          font-size: .95em;
+}

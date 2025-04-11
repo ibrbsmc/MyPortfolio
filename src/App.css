@@ -1,0 +1,25 @@
+.card{
+    border: var(--bs-card-border-width) solid rgb(0 0 0 / 0%) !important;
+;
+}
+ html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Yatay scroll engelle */
+}
+/* Yatay ve dikey scroll bar için stil */
+::-webkit-scrollbar {
+  width: 10px; /* Scrollbar genişliği */
+}
+
+/* Scrollbar arka plan rengi */
+::-webkit-scrollbar-track {
+  background-color: rgb(53, 53, 53); /* Arka plan rengi */
+  border-radius: 0px; /* Border radius */
+}
+
+/* Scrollbar kendisi */
+::-webkit-scrollbar-thumb {
+  background-color: silver !important; /* Renk */
+  border-radius: 0px; /* Border radius */
+}

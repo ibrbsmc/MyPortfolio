@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.contact-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.lp-contact-title{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 21px;
+    color: silver;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -50px;
+}
+body.light-mode .lp-contact-title{
+    color: black;
+}
