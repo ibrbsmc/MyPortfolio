@@ -122,3 +122,8 @@ body.light-mode .down-cv:hover{
             font-family: "Roboto", sans-serif !important;
             font-size: .75em !important;
 }
+@media (max-width: 768px){
+  .info-st{
+    bottom: 0px;
+  }
+}
