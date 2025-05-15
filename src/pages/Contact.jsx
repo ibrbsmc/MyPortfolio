@@ -35,7 +35,7 @@ transition={{ duration: 0.3 }}
           <div className='contact-icon'><MailIcon /></div>
           <div className='contact-text'>
           E-MAIL <br />
-          ibrabasmac14@gmail.com  
+          ibrbsmc@gmail.com  
           </div>
         </div>
         <div className='cont-mail'>
@@ -50,7 +50,7 @@ transition={{ duration: 0.3 }}
       <Card.Body className='social-logos'>
       <Card.Link className='about-lin' href="https://www.linkedin.com/in/ibrahimbasmaci/" target="_blank"><LinkedInIcon /></Card.Link>
       <Card.Link className='about-git' href="https://github.com/ibrbsmc" target="_blank"><GitHubIcon /></Card.Link>
-      <Card.Link className='about-mail' href="https://mail.google.com/mail/?view=cm&to=ibrabasmac14@gmail.com" target="_blank"><MailIcon /></Card.Link>
+      <Card.Link className='about-mail' href="https://mail.google.com/mail/?view=cm&to=ibrbsmc@gmail.com" target="_blank"><MailIcon /></Card.Link>
       <Card.Link className='about-insta' href="https://www.instagram.com/ibrbsmc/"  target="_blank"><InstagramIcon /></Card.Link>
       <Card.Link className='about-medium' href='https://medium.com/@ibrabasmac14' target='_blank'><BookIcon /></Card.Link>
       </Card.Body>
