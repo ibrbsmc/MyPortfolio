@@ -81,6 +81,7 @@ body.light-mode .lm-skills:hover {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 10px;
+    row-gap: 20px;
 }
 .logos-name{
     display: flex;
