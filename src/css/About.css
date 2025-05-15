@@ -2,109 +2,178 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 
-.about-main{
-    width: 100%;
-    background: transparent;
+.about-main {
+  width: 100%;
+  background: transparent;
 }
-.two-three{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    background: transparent;
+
+.two-three {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background: transparent;
+  gap: 20px; /* Görsel ve yazı arasında boşluk */
 }
-.about-one{
-    background: transparent;
+
+.about-one {
+  background: transparent;
 }
-.about-two{
-    width: 50%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 5px;
-    margin-top: auto;
-    background: transparent;
+
+.about-two {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: transparent;
 }
-.about-present-title{
-    color: silver;
-}
-body.light-mode .about-present-title{
-    color: goldenrod;
-}
-.about-three{
-    width: 50%;
-    height: auto;
-    background: transparent;
-}
-.gel-uni{
-    width: 100px;
-    height: 96px;
-}
-.title-about span {
-    color: silver;
-    text-shadow: 0px 2px 5px gray;
-    font-size: 3.6em;
-  }
-.title-about{
-    text-transform: uppercase;
-    font-size: 6px;
-}
-.st-about{
-    font-size: 12px;
-    color: silver;
-    font-family: 'Le Havre', sans-serif;
-    position: relative;
-    bottom: 18px;
-    font-style: italic;
-}
-.about-text{
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-}
-body.light-mode .about-text{
-    color: black;
-    font-weight: 500;
-}
-.three-body{
+.image-text{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-}
-.about-icon-title{
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 24px;
-    color: silver;
-}
-body.light-mode .about-icon-title {
-    color: black;
-}
-.lp-about-logos img{
-    width: 84px;
-    height: 84px;
-    border: 1px solid gray;
-    padding: 18px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px rgb(88, 88, 88);
-}
-.lp-about-logos img:hover{
-    background-color: gray;
-    transition: .7s background-color ease;
-}
-.lp-about-logos {
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    gap: 35px;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
 }
-.icon-mainc-about{
-    height: 80vh;
-    width: 100%;
-    background: transparent;
-    margin-top: 80px;
 
+.about-present-title {
+  color: silver;
+}
+
+body.light-mode .about-present-title {
+  color: goldenrod;
+}
+
+.about-three {
+  width: 50%;
+  height: auto;
+  background: transparent;
+}
+
+.gel-uni {
+  width: 100px;
+  height: 96px;
+}
+
+.title-about span {
+  color: silver;
+  text-shadow: 0px 2px 5px gray;
+  font-size: 3.6em;
+}
+
+.title-about {
+  text-transform: uppercase;
+  font-size: 6px; /* Orijinal boyut */
+}
+
+.st-about {
+  font-size: 12px; /* Orijinal boyut */
+  color: silver;
+  font-family: 'Le Havre', sans-serif;
+  position: relative;
+  bottom: 18px;
+  font-style: italic;
+}
+
+.about-text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px; /* Orijinal boyut */
+}
+
+body.light-mode .about-text {
+  color: black;
+  font-weight: 500;
+}
+
+.three-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-icon-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px; /* Orijinal boyut */
+  color: silver;
+}
+
+body.light-mode .about-icon-title {
+  color: black;
+}
+
+.lp-about-logos img {
+  width: 84px; /* Orijinal boyut */
+  height: 84px; /* Orijinal boyut */
+  border: 1px solid gray;
+  padding: 18px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(88, 88, 88);
+}
+
+.lp-about-logos img:hover {
+  background-color: gray;
+  transition: 0.7s background-color ease;
+}
+
+.lp-about-logos {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon-mainc-about {
+  height: 80vh;
+  width: 100%;
+  background: transparent;
+  margin-top: 80px;
+}
+
+/* Küçük ekranlar için düzenlemeler */
+@media (max-width: 768px) {
+  .two-three {
+    flex-direction: column; /* Alt alta sırala */
+  }
+
+  .about-two {
+    width: 100%; /* Tam genişlik */
+    margin-bottom: 20px; /* Alt boşluk */
+  }
+
+  .about-three {
+    width: 100%; /* Tam genişlik */
+  }
+
+  .three-body {
+    align-items: center; /* Yazıyı ortala */
+    text-align: center;
+  }
+}
+
+/* Daha küçük ekranlar için (telefonlar) */
+@media (max-width: 576px) {
+  .title-about span {
+    font-size: 2.5em; /* Daha küçük ekranda okunabilirlik için küçült */
+  }
+
+  .lp-about-logos img {
+    width: 60px; /* Daha küçük ekranda sığdırmak için küçült */
+    height: 60px; /* Daha küçük ekranda sığdırmak için küçült */
+    padding: 12px;
+    border-radius: 15px;
+    gap: 15px;
+  }
+
+  .lp-about-logos {
+    gap: 15px;
+  }
+
+  .about-icon-title {
+    font-size: 1.8em; /* Daha küçük başlık */
+  }
 }
