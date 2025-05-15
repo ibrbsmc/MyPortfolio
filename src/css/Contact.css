@@ -1,112 +1,172 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-.contact-card{
+.contact-card {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: transparent;
 }
-.cont-one{
-	width: 100%;
-	height: 200px;
-	font-family: "Josefin Sans", sans-serif;
-	font-size: 44px;
-	background-color: transparent;
-	color: silver;
-	padding: 5px;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	flex-direction: row;
-}
-body.light-mode .cont-one{
-	color: gray;
+
+.cont-one {
+    width: 100%;
+    height: 200px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 44px;
+    background-color: transparent;
+    color: silver;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
 }
 
-.cont-two-one{
-	height: 500px;
-	width: 50%;
-	display: flex;
-	flex-direction: column;
-	gap: 60px;
-	/* justify-content: center; */
-	background: transparent;
-	padding: 6px;
+body.light-mode .cont-one {
+    color: gray;
 }
-.cont-two-two{
-	height: 500px;
-	width: 50%;
-	background-color: transparent;
+
+.cont-two-one {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
 }
-.social-logos{
-	display: flex;
-	gap: 10px;
-	justify-content: flex-end;
-	flex-direction: row;
-	flex-wrap: wrap;
-	margin-top: -10px;
-	align-items :flex-start;
+
+.cont-two-two {
+    width: 100%;
+    background-color: transparent;
 }
-.social-logos svg{
-	font-size: 58px;
-	border-radius: 10px;
-	background-color: silver;
-	padding: 12px;
-	color: gray;
+
+.social-logos {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.cont-two{
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	flex-wrap: wrap;
-	height: auto;
-	background: transparent;
-	padding: 5px;
+
+.social-logos svg {
+    font-size: 58px;
+    border-radius: 10px;
+    background-color: silver;
+    padding: 12px;
+    color: gray;
 }
-.cont-mail{
-	display: flex;
-	flex-direction: row;
-	gap: 20px;
-	margin-left: 10px;
-	flex-wrap: wrap;
+
+.cont-two {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: fit-content;
+    background: transparent;
+    padding: 10px;
 }
-.contact-icon svg{
-	font-size: 52px;
-	border-radius: 10px;
-	background-color: gray;
-	padding: 10px;
-	color: silver;
+
+.cont-mail {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 280px;
+    align-items: center;
+    justify-content: center;
 }
-body.light-mode .contact-icon svg{
-	background-color: gainsboro;
-	color: white;
+
+.contact-icon svg {
+    font-size: 52px;
+    border-radius: 10px;
+    background-color: gray;
+    padding: 10px;
+    color: silver;
 }
-.contact-text{
-	font-family: "Josefin Sans", sans-serif;
-	display: flex;
-	align-items: center;
-	font-size: .95em;
-	color: gainsboro;
-	flex-direction: row;
-	flex-wrap: wrap;
+
+body.light-mode .contact-icon svg {
+    background-color: gainsboro;
+    color: white;
 }
-body.light-mode .contact-text{
-	color: gray;
+
+.contact-text {
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: .95em;
+    color: gainsboro;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+	width: 140px;
+	height: 50px;
 }
-.c-title-underline{
-	width: 30%;
+
+body.light-mode .contact-text {
+    color: gray;
+}
+
+.c-title-underline {
+    width: 30%;
     height: 1px;
     background-color: gray;
-    transform: scaleY(0.4); /* daha ince gösterir */
+    transform: scaleY(0.4);
     margin: auto;
-    margin-bottom:80px;
+    margin-bottom: 80px;
 }
-.cont-one .card-text{
-	width: 100%;
-	text-align: center;
-	margin-top: 50px;
-	margin-bottom:20px;
-	padding: 0px;
+
+.cont-one .card-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 0px;
 }
-body.light-mode .cont-one .card-text{
-	color: black;
+
+body.light-mode .cont-one .card-text {
+    color: black;
+}
+
+/* 📱 Responsive Ayarlar */
+@media (max-width: 768px) {
+    .cont-one {
+        font-size: 32px;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .cont-mail {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-icon svg {
+        font-size: 40px;
+        padding: 8px;
+    }
+
+    .social-logos svg {
+        font-size: 44px;
+        padding: 10px;
+    }
+
+    .social-logos {
+        gap: 20px;
+    }
+
+    .contact-text {
+        font-size: 0.9em;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cont-mail {
+        width: auto;
+    }
 }
