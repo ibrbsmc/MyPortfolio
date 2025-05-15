@@ -8,7 +8,7 @@ const LpSkills = () => {
   return (
     <Card className='lp-skills'>
         <Card.Body className='lp-skills-body'>
-        <div className='lps-one-section'>
+        <div className='lpp-main-body'>
         <Card.Title className='lp-skills-title'>Skills & Technologies</Card.Title>
         <Button as={Link} to="/about" className='lm-skills'>View All Skills</Button>
         </div>
