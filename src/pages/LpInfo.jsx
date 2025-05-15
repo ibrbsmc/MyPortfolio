@@ -30,7 +30,7 @@ const LpInfo = () => {
                 <div className='icons'>
                     <Card.Link className='lin-icon' href="https://www.linkedin.com/in/ibrahimbasmaci/" target="_blank"><LinkedInIcon /></Card.Link>
                     <Card.Link className='git-icon' href="https://github.com/ibrbsmc" target="_blank"><GitHubIcon /></Card.Link>
-                    <Card.Link className='mail-icon' href="https://mail.google.com/mail/?view=cm&to=ibrabasmac14@gmail.com"  target="_blank"><MailIcon /></Card.Link>
+                    <Card.Link className='mail-icon' href="https://mail.google.com/mail/?view=cm&to=ibrbsmc@gmail.com"  target="_blank"><MailIcon /></Card.Link>
                     
                 </div>
                     </Card.Body>
