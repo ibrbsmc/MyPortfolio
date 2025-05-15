@@ -1,10 +1,18 @@
 export const ProjectList = [
     {
-        image:"/holiday_img.png",
-        title:"Holiday Hunt",
-        description:"A website that showcases and provides details about selected hotels in various cities across selected countries.",
-        linkweb:"https://holiday-hunt.vercel.app/",
-        linkgit:"https://github.com/ibrbsmc/HolidayHunt.git"
+        image:"/pickside.png",
+        title:"Pick Side",
+        description:"Pickside is a fun quiz app where users pick between two options in each round until one final winner is revealed.",
+        linkweb:"https://pick-side.vercel.app/",
+        linkgit:"https://github.com/ibrbsmc/pickSide"
+
+    },
+    {
+        image:"/worldplate_img.png",
+        title:"World on a Plate",
+        description:"A website that introduces people to the most popular and traditional dishes from selected countries.",
+        linkweb:"https://local-foods.vercel.app/",
+        linkgit:"https://github.com/ibrbsmc/LocalFoods.git"
     },
     {
         image:"/weather_img.png",
@@ -14,13 +22,6 @@ export const ProjectList = [
         linkgit:"https://github.com/ibrbsmc/WeatherApp.git"
     },
     {
-        image:"/bmi_img.png",
-        title:"Bmi Calculator",
-        description:"A BMI calculator that helps users understand their health status and offers guidance on preventive steps based on the calc.",
-        linkweb:"https://bmi-calculator-nine-tau.vercel.app/",
-        linkgit:"https://github.com/ibrbsmc/BmiCalculator.git"
-    },
-    {
         image:"/quiz_img.png",
         title:"Quiz App",
         description:"A fun quiz website where users can quickly boost and refresh their general sports knowledge.",
@@ -28,11 +29,18 @@ export const ProjectList = [
         linkgit:"https://github.com/ibrbsmc/QuizApp.git"
     },
     {
-        image:"/worldplate_img.png",
-        title:"World on a Plate",
-        description:"A website that introduces people to the most popular and traditional dishes from selected countries.",
-        linkweb:"https://local-foods.vercel.app/",
-        linkgit:"https://github.com/ibrbsmc/LocalFoods.git"
+        image:"/bmi_img.png",
+        title:"Bmi Calculator",
+        description:"A BMI calculator that helps users understand their health status and offers guidance on preventive steps based on the calc.",
+        linkweb:"https://bmi-calculator-nine-tau.vercel.app/",
+        linkgit:"https://github.com/ibrbsmc/BmiCalculator.git"
+    },
+    {
+        image:"/holiday_img.png",
+        title:"Holiday Hunt",
+        description:"A website that showcases and provides details about selected hotels in various cities across selected countries.",
+        linkweb:"https://holiday-hunt.vercel.app/",
+        linkgit:"https://github.com/ibrbsmc/HolidayHunt.git"
     },
     {
         image:"/randomquote_img.png",
